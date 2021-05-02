@@ -15,7 +15,7 @@ router.post("/sample", async(req, res, next) =>{
             msg: "success"
         })
     }catch(err){
-        console.log(err);
+        console.log(err); 
         res.status(400).json({
             msg: "fail"
         });
